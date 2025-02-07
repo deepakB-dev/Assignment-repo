@@ -1,6 +1,7 @@
 # Assessment Questions:
 ## Question 1: DSA Given an array of integers, return the length of the longest increasing subsequence. A subsequence is a sequence that can be derived from the array by deleting some or no elements without changing the order of the remaining elements. For example, given the array [10, 9, 2, 5, 3, 7, 101, 18], the longest increasing subsequence is [2, 3, 7, 101], and its length is 4.
 
+ANS:- 
 ## Question 3: MongoDB Aggregation Consider a MongoDB collection named sales with documents structured as follows:
 json:
 {
@@ -37,3 +38,34 @@ json:
        "averagePrice": 12.5
    }
 ]
+
+ANS:- 
+
+
+## Question 4: React Build a Dynamic To-Do List Application in React.
+Objective:
+Create a React application that allows users to manage a to-do list with the following features:
+Add new tasks
+Mark tasks as complete
+Delete tasks
+Filter tasks by all, completed, and pending
+Persist tasks in the local storage so that they are retained after a page refresh
+Requirements:
+1.UI Components:
+oCreate a TodoApp component as the main component.
+oCreate a TodoList component to display the list of tasks.
+oCreate a TodoItem component to represent each task.
+oCreate an AddTodo component for adding new tasks.
+oCreate a Filter component to filter tasks.
+2.State Management:
+oUse the useState and useEffect hooks for state management.
+oUse local storage to persist the tasks.
+3.Functionality:
+oAdd a new task with a text input.
+oMark a task as complete/incomplete by clicking on it.
+oDelete a task.
+oFilter tasks by all, completed, and pending.
+oPersist tasks in local storage.
+PS - You may use this API for the todo app - https://dummyjson.com/docs/todos#todos-a
+
+Ans:- inside Todoapp folder
